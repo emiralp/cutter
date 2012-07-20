@@ -12,7 +12,7 @@ $(document).ready(function(){
 		{
 			nailcut.nailcutCount++;
 			
-			$(this).before('<div id="nailcutId_'+nailcut.nailcutCount+'" style="width:'+ $w +'px;height:'+ $h +'px;background:#cc0000;overflow:hidden;"><img src="'+$(this).attr('src')+'"></div>');
+			$(this).before('<div id="nailcutId_'+nailcut.nailcutCount+'" style="width:'+ $w +'px;height:'+ $h +'px;overflow:hidden;"><img src="'+$(this).attr('src')+'"></div>');
 			
 			$('#nailcutId_' + nailcut.nailcutCount).find('img').load(function(){
 				$tw = $(this).width();
