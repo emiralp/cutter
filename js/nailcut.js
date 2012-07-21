@@ -4,7 +4,7 @@ var nailcut = {
 
 $(document).ready(function(){
 	
-	$(document).find('img').each(function(){
+	$('.nailcut').each(function(){
 		$w = $(this).attr('data-nailcut');
 		$h = $(this).attr('data-nailcut');
 		
